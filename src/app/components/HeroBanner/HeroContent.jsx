@@ -9,13 +9,13 @@ const HeroContent = () => {
   const { title, subtitle, btnName1, btnName2 } = data.hero;
 
   return (
-    <div className='relative flex flex-col gap-6 w-[640px]'>
+    <div className='relative flex flex-col gap-6 xl:w-[640px] lg:w-[440px]'>
 
-      <h1 className='capitalize text-[64px] leading-[64px] relative z-10'>{title}</h1>
+      <h1 className='capitalize sm:text-[64px] text-[44px] sm:leading-[64px] leading-[44px] relative z-10'>{title}</h1>
 
       <h3 className='text-[18px] leading-[28px] opacity-50 relative z-10'>{subtitle}</h3>
 
-      <div className=' flex items-center gap-10 relative z-10'>
+      <div className=' flex flex-wrap items-center sm:gap-10 gap-5 relative z-10'>
 
         <button className='flex items-center gap-2 bg-black hover:bg-pink text-white hover:text-black transition-all duration-300 w-fit px-6 py-4 rounded'>
           <div className='font-clashMedium text-[18px] leading-[28px] capitalize' fill='currentColor'>{btnName1}</div>

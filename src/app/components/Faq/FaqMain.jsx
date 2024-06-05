@@ -4,7 +4,7 @@ import FaqContent from './FaqContent'
 
 const FaqMain = () => {
     return (
-        <div className='px-[175px] my-[125px]'>
+        <div className='xl:px-[175px] lg:px-[125px] sm:px-[75px] px-[25px] sm:mt-[125px] mt-[75px]'>
             <FaqHeading />
             <FaqContent />
         </div>

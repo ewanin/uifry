@@ -6,7 +6,7 @@ const ReadyImage = () => {
     const { mainPhoto } = data.ready;
 
     return (
-        <div className=''>
+        <div className='md:block hidden'>
             <img src={mainPhoto} alt='Ready Phone Image' />
         </div>
     )

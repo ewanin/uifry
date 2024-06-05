@@ -5,10 +5,10 @@ const AdvantagesContent = () => {
     const { title, subtitle, subheading, content, photo } = data.advantages;
 
     return (
-        <div className='relative flex flex-col gap-6 w-[640px]'>
+        <div className='relative flex flex-col gap-6 xl:w-[640px] lg:w-[520px]'>
             <div>
                 <h3 className='text-pink text-[18px] leading-[28px] uppercase'>{title}</h3>
-                <h1 className=' text-[48px] leading-[48px] mt-1'>{subtitle}</h1>
+                <h1 className=' sm:text-[48px] text-[38px] sm:leading-[48px] leading-[38px] mt-1'>{subtitle}</h1>
             </div>
             <div className='flex items-center gap-2'>
                 <img src={photo} alt='Bell' className='w-10 h-10' />

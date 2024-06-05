@@ -4,7 +4,7 @@ import FooterTwo from './FooterTwo'
 
 const FooterMain = () => {
   return (
-    <div className='px-[175px] py-10'>
+    <div className='xl:px-[175px] lg:px-[125px] sm:px-[75px] px-[25px] py-10'>
         <FooterOne />
         <FooterTwo />
     </div>

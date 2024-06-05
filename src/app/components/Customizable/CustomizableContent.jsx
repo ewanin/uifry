@@ -7,7 +7,7 @@ const CustomizableContent = () => {
     const { subheading, content, photo } = data.customizable;
 
     return (
-        <div className='relative flex flex-col gap-6 w-[640px]'>
+        <div className='relative flex flex-col gap-6 xl:w-[640px] lg:w-[440px] lg:order-2 order-1'>
             <div className='flex items-center gap-2'>
                 <img src={photo} alt='Star' />
                 <h2 className='text-[28px] leading-[28px] capitalize'>{subheading}</h2>

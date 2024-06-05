@@ -5,9 +5,9 @@ import TestimonialHeading from './TestimonialHeading'
 
 const TestimonialMain = () => {
     return (
-        <div className=' px-[175px] mt-[125px]'>
+        <div className=' xl:px-[175px] lg:px-[125px] sm:px-[75px] px-[25px] sm:mt-[125px] mt-[75px]'>
             <TestimonialHeading />
-            <div className='flex justify-between items-center gap-10'>
+            <div className='flex lg:flex-row flex-col justify-between items-center gap-10'>
                 <TestimonialImage />
                 <TestimonialContent />
             </div>

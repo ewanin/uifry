@@ -4,7 +4,7 @@ import featuresBannerImage from '../../../../public/images/featuresBannerImage.p
 
 const FeaturesImage = () => {
     return (
-        <div className=''>
+        <div className='lg:order-1 order-2'>
             <Image src={featuresBannerImage} alt='Features Banner Image' />
         </div>
     )
