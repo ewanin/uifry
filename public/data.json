@@ -1,0 +1,126 @@
+{
+    "header": {
+        "logo": "/svg/logo.svg",
+        "menuItems": [
+            {
+                "text": "home",
+                "link": "#"
+            },
+            {
+                "text": "about us",
+                "link": "#"
+            },
+            {
+                "text": "pricing",
+                "link": "#"
+            },
+            {
+                "text": "features",
+                "link": "#"
+            }
+        ],
+        "downloadButtonText": "Download"
+    },
+    "hero": {
+        "title": "make the best financial decisions",
+        "subtitle": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+        "btnName1": "get started ",
+        "btnName2": "watch video",
+        "photo": "/images/heroStripImage.png",
+        "mainPhoto": "/images/advantagesBannerImage.png"
+    },
+    "advantages": {
+        "title": "Advantages",
+        "subtitle": "Why choose Uifry?",
+        "subheading": "clever notifications",
+        "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
+        "photo": "/svg/bell.svg",
+        "mainPhoto": "/images/advantagesBannerImage.png"
+    },
+    "customizable": {
+        "subheading": "Fully Customizable",
+        "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
+        "photo": "/svg/star.svg",
+        "mainPhoto": "/images/customizableBannerImage.png"
+    },
+    "testimonial": {
+        "title": "testimonial",
+        "subtitle": "What Our Users Say About Us?",
+        "subheading": "The Best Financial Accounting App Ever!",
+        "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
+        "mainPhoto": "/images/testimonialBannerImage.png",
+        "name": "nick jonas",
+        "photo1": "/images/Testi1.png",
+        "photo2": "/images/Testi2.png",
+        "photo3": "/images/Testi3.png",
+        "photo4": "/images/Testi4.png",
+        "photo5": "/images/Testi5.png"
+    },
+    "faq": {
+        "title": "faq",
+        "subtitle": "Frequently asked questions",
+        "heading": "The Best Financial Accounting App Ever!",
+        "content": "Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris."
+    },
+    "ready": {
+        "title": "ready to get started?",
+        "subtitle": "Risus habitant leo egestas mauris diam eget morbi tempus vulputate.",
+        "btnName": "download app",
+        "mainPhoto": "/images/readyPhoneImage.png"
+    },
+    "footer": [
+        {
+            "title": "Contact",
+            "items": [
+                {
+                    "icon": "/svg/logo.svg"
+                },
+                {
+                    "icon": "/svg/email.svg",
+                    "text": "help@frybix.com"
+                },
+                {
+                    "icon": "/svg/call.svg",
+                    "text": "+1 234 456 678 89"
+                }
+            ]
+        },
+        {
+            "title": "Links",
+            "items": [
+                "Home",
+                "About Us",
+                "Bookings",
+                "Blog"
+            ]
+        },
+        {
+            "title": "Legal",
+            "items": [
+                "Terms of Use",
+                "Privacy Policy",
+                "Cookie Policy"
+            ]
+        },
+        {
+            "title": "Product",
+            "items": [
+                "Take Tour",
+                "Live Chat",
+                "Reviews"
+            ]
+        },
+        {
+            "title": "Newsletter",
+            "items": [
+                {
+                    "inputPlaceholder": "Your email",
+                    "buttonText": "Subscribe"
+                }
+            ]
+        }
+    ],
+    "copyright": {
+        "title": "Copyright 2022 uifry.com All Rights Reserved"
+    }
+}
