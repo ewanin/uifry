@@ -17,7 +17,7 @@ module.exports = {
         pink: '#FF5555'
       },
       backgroundImage: {
-        readyBanner: 'url(/images/readyBannerImage.png)'
+        readyBanner: 'url(/readyBannerImage.png)'
       }
     },
   },

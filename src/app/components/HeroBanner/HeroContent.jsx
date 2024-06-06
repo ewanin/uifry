@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import circleBackImage from '../../../../public/images/circleBackImage.png'
+import circleBackImage from '../../../../public/circleBackImage.png'
 import data from '../../../../public/data.json';
 
 

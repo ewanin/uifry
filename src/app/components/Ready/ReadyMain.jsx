@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import ReadyContent from './ReadyContent'
 import ReadyImage from './ReadyImage'
-import circleBackImage from '../../../../public/images/circleBackImage.png'
+import circleBackImage from '../../../../public/circleBackImage.png'
 
 
 const ReadyMain = () => {

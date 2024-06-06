@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "ClashRegular";
-  src: url("/fonts/ClashDisplay-Regular.otf");
+  src: url("/ClashDisplay-Regular.otf");
 }
 
 @font-face {
   font-family: "ClashMedium";
-  src: url("/fonts/ClashDisplay-Medium.otf");
+  src: url("/ClashDisplay-Medium.otf");
 }
 
 @font-face {
   font-family: "ClashSemibold";
-  src: url("/fonts/ClashDisplay-Semibold.otf");
+  src: url("/ClashDisplay-Semibold.otf");
 }
 
 @font-face {
   font-family: "ClashBold";
-  src: url("/fonts/ClashDisplay-Bold.otf");
+  src: url("/ClashDisplay-Bold.otf");
 }
 
 h1 {

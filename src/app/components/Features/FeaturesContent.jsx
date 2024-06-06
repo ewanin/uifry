@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import fea1 from '../../../../public/svg/fea1.svg'
-import fea2 from '../../../../public/svg/fea3.svg'
-import fea3 from '../../../../public/svg/fea3.svg'
-import circleBackImage from '../../../../public/images/circleBackImage.png'
+import fea1 from '../../../../public/fea1.svg'
+import fea2 from '../../../../public/fea3.svg'
+import fea3 from '../../../../public/fea3.svg'
+import circleBackImage from '../../../../public/circleBackImage.png'
 
 const FeaturesContent = () => {
     return (

@@ -1,6 +1,6 @@
 {
     "header": {
-        "logo": "/svg/logo.svg",
+        "logo": "/logo.svg",
         "menuItems": [
             {
                 "text": "home",
@@ -26,35 +26,35 @@
         "subtitle": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
         "btnName1": "get started ",
         "btnName2": "watch video",
-        "photo": "/images/heroStripImage.png",
-        "mainPhoto": "/images/advantagesBannerImage.png"
+        "photo": "/heroStripImage.png",
+        "mainPhoto": "/heroBannerImage.png"
     },
     "advantages": {
         "title": "Advantages",
         "subtitle": "Why choose Uifry?",
         "subheading": "clever notifications",
         "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
-        "photo": "/svg/bell.svg",
-        "mainPhoto": "/images/advantagesBannerImage.png"
+        "photo": "/bell.svg",
+        "mainPhoto": "/advantagesBannerImage.png"
     },
     "customizable": {
         "subheading": "Fully Customizable",
         "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
-        "photo": "/svg/star.svg",
-        "mainPhoto": "/images/customizableBannerImage.png"
+        "photo": "/star.svg",
+        "mainPhoto": "/customizableBannerImage.png"
     },
     "testimonial": {
         "title": "testimonial",
         "subtitle": "What Our Users Say About Us?",
         "subheading": "The Best Financial Accounting App Ever!",
         "content": "Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.",
-        "mainPhoto": "/images/testimonialBannerImage.png",
+        "mainPhoto": "/testimonialBannerImage.png",
         "name": "nick jonas",
-        "photo1": "/images/Testi1.png",
-        "photo2": "/images/Testi2.png",
-        "photo3": "/images/Testi3.png",
-        "photo4": "/images/Testi4.png",
-        "photo5": "/images/Testi5.png"
+        "photo1": "/Testi1.png",
+        "photo2": "/Testi2.png",
+        "photo3": "/Testi3.png",
+        "photo4": "/Testi4.png",
+        "photo5": "/Testi5.png"
     },
     "faq": {
         "title": "faq",
@@ -66,21 +66,21 @@
         "title": "ready to get started?",
         "subtitle": "Risus habitant leo egestas mauris diam eget morbi tempus vulputate.",
         "btnName": "download app",
-        "mainPhoto": "/images/readyPhoneImage.png"
+        "mainPhoto": "/readyPhoneImage.png"
     },
     "footer": [
         {
             "title": "Contact",
             "items": [
                 {
-                    "icon": "/svg/logo.svg"
+                    "icon": "/logo.svg"
                 },
                 {
-                    "icon": "/svg/email.svg",
+                    "icon": "/email.svg",
                     "text": "help@frybix.com"
                 },
                 {
-                    "icon": "/svg/call.svg",
+                    "icon": "/call.svg",
                     "text": "+1 234 456 678 89"
                 }
             ]
