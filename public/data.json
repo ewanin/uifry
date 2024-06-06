@@ -70,7 +70,6 @@
     },
     "footer": [
         {
-            "title": "Contact",
             "items": [
                 {
                     "icon": "/logo.svg"
@@ -117,6 +116,9 @@
                     "inputPlaceholder": "Your email",
                     "buttonText": "Subscribe",
                     "label": "Stay up to date"
+                },
+                {
+                    "text": "Stay up to date"
                 }
             ]
         }
