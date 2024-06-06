@@ -43,5 +43,3 @@ const HeaderMain = () => {
         </div>
     );
 };
-
-export default HeaderMain;
