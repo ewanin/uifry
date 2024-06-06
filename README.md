@@ -1,3 +1,7 @@
+![App Landing Page](https://github.com/ewanin/uifry/assets/70193546/690834c9-0d2a-44a0-9b26-06cdf0ff5a25)
+
+
+
 Design Choices:
 1. Header: It seems to have a fixed header at the top of the page, containing a logo and navigation menu. The header may have a responsive design to accommodate different screen sizes.
 2. Hero/Banner Section: This section likely features a prominent title, subtitle, and call-to-action buttons. It might include images or illustrations to grab the user's attention.
