@@ -1,6 +1,42 @@
+Design Choices:
+1. Header: It seems to have a fixed header at the top of the page, containing a logo and navigation menu. The header may have a responsive design to accommodate different screen sizes.
+2. Hero/Banner Section: This section likely features a prominent title, subtitle, and call-to-action buttons. It might include images or illustrations to grab the user's attention.
+3. Features: The features section showcases key functionalities or characteristics of the product or service being offered. Each feature may be accompanied by a brief description.
+4. Advantages: Similar to the features section, the advantages section highlights the benefits or advantages of using the product or service.
+5. Customizable Options: This section probably presents options for users to customize their experience or tailor the product to their preferences.
+6. Testimonials: Testimonials add credibility to the website by showcasing positive feedback or experiences from previous customers or users. It often includes a name or photo of the person providing the testimonial.
+7. FAQ: The FAQ section addresses common questions or concerns users may have about the product or service.
+Ready Section: This section may indicate that the product or service is ready for use or implementation. It might include a brief overview and a call-to-action button.
+8. Footer: The footer typically contains links to important pages, contact information, social media links, and possibly additional navigational elements.
+
+
+
+Libraries Used:
+1. React: The project is built using React, a popular JavaScript library for building user interfaces.
+2. Next.js: Next.js is a React framework used for building server-side rendered and statically generated React applications. It simplifies the setup and provides features like automatic code splitting, routing, and server-side rendering.
+3. Tailwind CSS: Tailwind CSS is a utility-first CSS framework used for styling the components. It allows for rapid development by providing pre-defined utility classes that can be applied directly in the JSX code.
+Next/Image: Next/Image is used for optimizing and rendering images. It provides features like lazy loading, automatic resizing, and optimization for better performance.
+4. Data.json: It seems like there's a data.json file containing the content and data used in the components. This approach allows for easy management of content without hardcoding it into the components.
+
+
+
+Figma Link
+https://www.figma.com/community/file/1145991068621514311
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+
+Steps:
+
+1. Clone into VS Code
+2. npm i
+3. npm run dev
+
+
 
 First, run the development server:
 

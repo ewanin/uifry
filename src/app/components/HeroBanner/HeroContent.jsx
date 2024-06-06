@@ -1,22 +1,25 @@
-import Image from 'next/image'
-import React from 'react'
-import circleBackImage from '../../../../public/circleBackImage.png'
+import Image from 'next/image';
+import React from 'react';
+import circleBackImage from '../../../../public/circleBackImage.png';
 import data from '../../../../public/data.json';
 
-
+// HeroContent component displaying hero section content
 const HeroContent = () => {
-
   const { title, subtitle, btnName1, btnName2 } = data.hero;
 
   return (
     <div className='relative flex flex-col gap-6 xl:w-[640px] lg:w-[440px]'>
 
+      {/* Hero title */}
       <h1 className='capitalize sm:text-[64px] text-[44px] sm:leading-[64px] leading-[44px] relative z-10'>{title}</h1>
 
+      {/* Hero subtitle */}
       <h3 className='text-[18px] leading-[28px] opacity-50 relative z-10'>{subtitle}</h3>
 
-      <div className=' flex flex-wrap items-center sm:gap-10 gap-5 relative z-10'>
+      {/* Buttons */}
+      <div className='flex flex-wrap items-center sm:gap-10 gap-5 relative z-10'>
 
+        {/* Button 1 */}
         <button className='flex items-center gap-2 bg-black hover:bg-pink text-white hover:text-black transition-all duration-300 w-fit px-6 py-4 rounded'>
           <div className='font-clashMedium text-[18px] leading-[28px] capitalize' fill='currentColor'>{btnName1}</div>
           <svg width="25" height="8" viewBox="0 0 25 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,6 +27,7 @@ const HeroContent = () => {
           </svg>
         </button>
 
+        {/* Button 2 */}
         <button className=' flex items-center gap-2 text-black hover:text-pink transition-all duration-300'>
           <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="14.5" cy="14.5" r="14" stroke="currentColor" />
@@ -34,10 +38,11 @@ const HeroContent = () => {
 
       </div>
 
+      {/* Circle background image */}
       <Image src={circleBackImage} alt='Back Image' className='absolute -top-1/2 right-0 z-0' />
 
     </div>
-  )
+  );
 }
 
-export default HeroContent
+export default HeroContent;

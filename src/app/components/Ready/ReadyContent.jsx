@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
 import data from '../../../../public/data.json';
 
-
+// ReadyContent component displaying the content of the "Ready" section
 const ReadyContent = () => {
-
+  // Destructure title, subtitle, and btnName from data.ready
   const { title, subtitle, btnName } = data.ready;
 
   return (
     <div className='flex flex-col gap-4 lg:ml-20 sm:ml-12 ml-8 md:w-[550px]'>
+      {/* Title */}
       <h1 className='sm:text-[48px] text-[38px] sm:leading-[48px] leading-[38px] text-white capitalize'>{title}</h1>
+      {/* Subtitle */}
       <h4 className='text-[18px] leading-[28px] text-white'>{subtitle}</h4>
+      {/* Button */}
       <button className='flex items-center gap-2 bg-white hover:bg-pink text-black hover:text-black transition-all duration-300 w-fit px-6 py-4 rounded'>
         <div className='font-clashMedium text-[18px] leading-[28px] capitalize' fill='currentColor'>{btnName}</div>
         <svg width="26" height="33" viewBox="0 0 26 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +20,7 @@ const ReadyContent = () => {
         </svg>
       </button>
     </div>
-  )
+  );
 }
 
-export default ReadyContent
+export default ReadyContent;

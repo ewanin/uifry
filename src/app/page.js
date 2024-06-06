@@ -8,17 +8,27 @@ import ReadyMain from "./components/Ready/ReadyMain";
 import FooterMain from "./components/Footer/FooterMain";
 import HeaderMain from "./components/Header/HeaderMain";
 
+// Default Home component rendering all the sections of the website
 export default function Home() {
   return (
     <main>
+      {/* Render the header section */}
       <HeaderMain />
+      {/* Render the hero/banner section */}
       <HeroMain />
+      {/* Render the features section */}
       <FeaturesMain />
+      {/* Render the advantages section */}
       <AdvantagesMain />
+      {/* Render the customizable section */}
       <CustomizableMain />
+      {/* Render the testimonial section */}
       <TestimonialMain />
+      {/* Render the FAQ section */}
       <FaqMain />
+      {/* Render the ready section */}
       <ReadyMain />
+      {/* Render the footer section */}
       <FooterMain />
     </main>
   );
